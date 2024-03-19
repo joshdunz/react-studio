@@ -1,9 +1,65 @@
 /* Add styling for your page here */
 
 .App {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 50px)); /* Adjust the width of the columns as needed */
+    gap: 30px; /* Adjust the gap between items */
+}
 
+.screen{
+    width: 250px;
+    margin:10px;
+    background-color: rgb(249 250 251);
+    border-radius: 0.375rem;
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: column;
+    width:450px;
+    
+}
+.name-desc{
+    inline-size: 240px;
+    overflow-wrap: break-word;
+    margin:10px;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.price-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+    margin:10px
+}
+.price-cart button {
+    background-color: #4811ff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.img {
+    width: 250px;
+    border-radius: 0.375rem;
+}
+.item{
+    width: 250px;
+    margin:10px;
 }
